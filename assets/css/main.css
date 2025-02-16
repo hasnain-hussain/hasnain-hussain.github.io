@@ -779,8 +779,12 @@ section,
   border: 2px solid var(--accent-color);
 }
 .underline-link {
-  text-decoration: underline;
+  text-decoration: underline !important;
   color: inherit; /* Keeps link color matching surrounding text */
+  font-weight: 500; /* Balances number vs. text weight */
+  font-size: 18px;
+  letter-spacing: 0.3px; /* Improves alignment */
+  font-family: 'Inter', sans-serif; /* Ensures smooth text rendering */
 }
 
 /*--------------------------------------------------------------
